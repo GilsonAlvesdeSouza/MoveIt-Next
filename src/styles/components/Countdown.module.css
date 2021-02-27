@@ -103,7 +103,7 @@
     border-radius: 1.5px 1.5px 4px 4px;
     background: var(--green);
     margin-top: -6px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .countdownFinished:hover {
@@ -115,3 +115,4 @@
         width: 288px;
     }
 }
+

@@ -1,17 +1,26 @@
-.CompletedChallangeContainer {
+.completedChallengesContainer {
     display: flex;
     align-items: center;
+
+    /* Deixa um item pra esquerda e outro pra direita */
     justify-content: space-between;
+
     margin: 3.5rem 0;
     padding-bottom: 1rem;
-    border-bottom: 1rem;
+    border-bottom: 1px solid #d7d8da;
+
     font-weight: 500;
+
 }
 
-.CompletedChallangeContainer span:first-child {
+.completedChallengesContainer:hover {
+    border-bottom: 1px solid var(--blue-twitter);
+}
+
+.completedChallengesContainer span:first-child {
     font-size: 1.25rem;
 }
 
-.CompletedChallangeContainer span:last-child {
+.completedChallengesContainer span:last-child {
     font-size: 1.5rem;
 }
